@@ -35,8 +35,29 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.container{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.containerHeader{
+  background-color: darkolivegreen;
+}
+
+.itemsHeader{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.itemHeader{
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.containerFooter{
+  margin-top: 700px;
+  padding-bottom: 30px;
+  text-align: center;
 }
