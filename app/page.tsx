@@ -3,6 +3,6 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-      <h1>Welcome to NextJs</h1>
+      <h1 className="container">Welcome to NextJs</h1>
   );
 }

@@ -1,3 +1,9 @@
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: "About | Next App"
+};
+
 export default function About(){
-    return <h1>Page about</h1>
+    return <h1 className="container">Select subitem</h1>
 }
